@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Neon Board — a fast, read-only make.fun frontend: live bounty board, bounty pages, leaderboards and profiles, straight from make.fun's public API.">
+<title>Neon Board · make.fun bounties</title>
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<a class="skip" href="#app">Skip to content</a>
+<header class="top">
+  <a class="brand" href="#/"><span class="brand-dot" aria-hidden="true"></span>Neon&nbsp;Board</a>
+  <nav aria-label="Main">
+    <a href="#/" data-nav="board">Board</a>
+    <a href="#/bounty/makefun-frontend-01" data-nav="bounty">This bounty</a>
+    <a href="#/u/tofu" data-nav="profile">@tofu</a>
+  </nav>
+  <p class="top-note">Live data · <a href="https://make.fun/">make.fun</a> public API · read-only</p>
+</header>
+<main id="app" aria-live="polite"></main>
+<footer class="foot">
+  <p>Neon Board is an unofficial open-source frontend. Data comes from <a href="https://make.fun/api">make.fun's public API</a>; nothing here signs you in or writes anything.</p>
+</footer>
+</body>
+</html>
